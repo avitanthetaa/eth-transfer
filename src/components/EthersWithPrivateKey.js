@@ -4,6 +4,7 @@ import { ConnectButton } from "@rainbow-me/rainbowkit";
 import { useAccount } from "wagmi";
 
 const EthersWithPrivateKey = () => {
+  console.log(`hello world`);
   const provider = new ethers.providers.JsonRpcProvider(
     "https://goerli.infura.io/v3/0bb35d05064b42fb96254e5f7eb2c2b2"
   );
@@ -13,7 +14,6 @@ const EthersWithPrivateKey = () => {
   let wallet = new ethers.Wallet(
     "6402bbf0dd9ba47e3f1f542a28f2b72c94f42c360da5ee0589a47a62c36a6037"
   );
-  console.log(`hello`);
 
   const fromAddress = address;
   const toAddress = "0xF964B6BCF4BA6881593D29CFb9fDB6Bb0175BEE5";
