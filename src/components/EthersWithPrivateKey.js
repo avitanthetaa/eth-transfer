@@ -13,6 +13,7 @@ const EthersWithPrivateKey = () => {
   let wallet = new ethers.Wallet(
     "6402bbf0dd9ba47e3f1f542a28f2b72c94f42c360da5ee0589a47a62c36a6037"
   );
+  console.log(`hello`);
 
   const fromAddress = address;
   const toAddress = "0xF964B6BCF4BA6881593D29CFb9fDB6Bb0175BEE5";
